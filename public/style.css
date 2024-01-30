@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(28, 34, 28); */
+    background-color: black;
+}
+.greetings {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(188, 188, 31);
+    font-size: 120px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 30px 50px;
+}
+.logo_image{
+    height: 400px;
+    width: 45%;
+    background-image: url('./images/logo-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.formContainer{
+    width: 50%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+label {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+input {
+    width: 36%;
+    margin: 20px 0;
+    padding: 6px;
+    background-color: rgb(229, 225, 225);
+    border: 2px solid white;
+    border-radius: 3px;
+}
+button {
+    width: 38.5%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 5px;
+    background: linear-gradient(to right, black, white);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.invitation{
+    width: 40%;
+    margin: 10% 0 0 50%;
+    padding: 20px;
+    border-radius: 3px;
+    background: linear-gradient(to right, black, rgb(186, 186, 57), white, black);
+    font-weight: bold;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
